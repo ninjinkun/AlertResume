@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262F224314CA83F700C827C7 /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F224214CA83F700C827C7 /* ResumeViewController.m */; };
+		264E870314CA59AC009EA753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264E870214CA59AC009EA753 /* UIKit.framework */; };
+		264E870514CA59AC009EA753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264E870414CA59AC009EA753 /* Foundation.framework */; };
+		264E870714CA59AC009EA753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264E870614CA59AC009EA753 /* CoreGraphics.framework */; };
+		264E870D14CA59AC009EA753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264E870B14CA59AC009EA753 /* InfoPlist.strings */; };
+		264E870F14CA59AC009EA753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E870E14CA59AC009EA753 /* main.m */; };
+		264E871314CA59AC009EA753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E871214CA59AC009EA753 /* AppDelegate.m */; };
+		264E871614CA59AC009EA753 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E871414CA59AC009EA753 /* MainStoryboard.storyboard */; };
+		264E871914CA59AC009EA753 /* QueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E871814CA59AC009EA753 /* QueueViewController.m */; };
+		264E872114CA5A5B009EA753 /* UIAlertView+NSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E872014CA5A5B009EA753 /* UIAlertView+NSError.m */; };
+		264E872314CA5F29009EA753 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264E872214CA5F29009EA753 /* Twitter.framework */; };
+		264E872514CA60BD009EA753 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264E872414CA60BD009EA753 /* Accounts.framework */; };
+		264E872814CA644B009EA753 /* PostTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E872714CA644B009EA753 /* PostTweetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		262F224114CA83F700C827C7 /* ResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeViewController.h; sourceTree = "<group>"; };
+		262F224214CA83F700C827C7 /* ResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeViewController.m; sourceTree = "<group>"; };
+		264E86FE14CA59AC009EA753 /* AlertResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264E870214CA59AC009EA753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		264E870414CA59AC009EA753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		264E870614CA59AC009EA753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		264E870A14CA59AC009EA753 /* AlertResume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertResume-Info.plist"; sourceTree = "<group>"; };
+		264E870C14CA59AC009EA753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		264E870E14CA59AC009EA753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264E871014CA59AC009EA753 /* AlertResume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertResume-Prefix.pch"; sourceTree = "<group>"; };
+		264E871114CA59AC009EA753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264E871214CA59AC009EA753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264E871514CA59AC009EA753 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		264E871714CA59AC009EA753 /* QueueViewController.h */ = {isa = PBXFileReference; path = QueueViewController.h; sourceTree = "<group>"; };
+		264E871814CA59AC009EA753 /* QueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueViewController.m; sourceTree = "<group>"; };
+		264E871F14CA5A5B009EA753 /* UIAlertView+NSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+NSError.h"; sourceTree = "<group>"; };
+		264E872014CA5A5B009EA753 /* UIAlertView+NSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+NSError.m"; sourceTree = "<group>"; };
+		264E872214CA5F29009EA753 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		264E872414CA60BD009EA753 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		264E872614CA644B009EA753 /* PostTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTweetViewController.h; sourceTree = "<group>"; };
+		264E872714CA644B009EA753 /* PostTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTweetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264E86FB14CA59AC009EA753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E872514CA60BD009EA753 /* Accounts.framework in Frameworks */,
+				264E872314CA5F29009EA753 /* Twitter.framework in Frameworks */,
+				264E870314CA59AC009EA753 /* UIKit.framework in Frameworks */,
+				264E870514CA59AC009EA753 /* Foundation.framework in Frameworks */,
+				264E870714CA59AC009EA753 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264E86F314CA59AC009EA753 = {
+			isa = PBXGroup;
+			children = (
+				264E872414CA60BD009EA753 /* Accounts.framework */,
+				264E872214CA5F29009EA753 /* Twitter.framework */,
+				264E870814CA59AC009EA753 /* AlertResume */,
+				264E870114CA59AC009EA753 /* Frameworks */,
+				264E86FF14CA59AC009EA753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264E86FF14CA59AC009EA753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264E86FE14CA59AC009EA753 /* AlertResume.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264E870114CA59AC009EA753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				264E870214CA59AC009EA753 /* UIKit.framework */,
+				264E870414CA59AC009EA753 /* Foundation.framework */,
+				264E870614CA59AC009EA753 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		264E870814CA59AC009EA753 /* AlertResume */ = {
+			isa = PBXGroup;
+			children = (
+				264E871114CA59AC009EA753 /* AppDelegate.h */,
+				264E871214CA59AC009EA753 /* AppDelegate.m */,
+				264E871414CA59AC009EA753 /* MainStoryboard.storyboard */,
+				264E871714CA59AC009EA753 /* QueueViewController.h */,
+				264E871814CA59AC009EA753 /* QueueViewController.m */,
+				262F224114CA83F700C827C7 /* ResumeViewController.h */,
+				262F224214CA83F700C827C7 /* ResumeViewController.m */,
+				264E872614CA644B009EA753 /* PostTweetViewController.h */,
+				264E872714CA644B009EA753 /* PostTweetViewController.m */,
+				264E871F14CA5A5B009EA753 /* UIAlertView+NSError.h */,
+				264E872014CA5A5B009EA753 /* UIAlertView+NSError.m */,
+				264E870914CA59AC009EA753 /* Supporting Files */,
+			);
+			path = AlertResume;
+			sourceTree = "<group>";
+		};
+		264E870914CA59AC009EA753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264E870A14CA59AC009EA753 /* AlertResume-Info.plist */,
+				264E870B14CA59AC009EA753 /* InfoPlist.strings */,
+				264E870E14CA59AC009EA753 /* main.m */,
+				264E871014CA59AC009EA753 /* AlertResume-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264E86FD14CA59AC009EA753 /* AlertResume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264E871C14CA59AC009EA753 /* Build configuration list for PBXNativeTarget "AlertResume" */;
+			buildPhases = (
+				264E86FA14CA59AC009EA753 /* Sources */,
+				264E86FB14CA59AC009EA753 /* Frameworks */,
+				264E86FC14CA59AC009EA753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertResume;
+			productName = AlertResume;
+			productReference = 264E86FE14CA59AC009EA753 /* AlertResume.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264E86F514CA59AC009EA753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 264E86F814CA59AC009EA753 /* Build configuration list for PBXProject "AlertResume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 264E86F314CA59AC009EA753;
+			productRefGroup = 264E86FF14CA59AC009EA753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264E86FD14CA59AC009EA753 /* AlertResume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264E86FC14CA59AC009EA753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E870D14CA59AC009EA753 /* InfoPlist.strings in Resources */,
+				264E871614CA59AC009EA753 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264E86FA14CA59AC009EA753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E870F14CA59AC009EA753 /* main.m in Sources */,
+				264E871314CA59AC009EA753 /* AppDelegate.m in Sources */,
+				264E871914CA59AC009EA753 /* QueueViewController.m in Sources */,
+				264E872114CA5A5B009EA753 /* UIAlertView+NSError.m in Sources */,
+				264E872814CA644B009EA753 /* PostTweetViewController.m in Sources */,
+				262F224314CA83F700C827C7 /* ResumeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		264E870B14CA59AC009EA753 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264E870C14CA59AC009EA753 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		264E871414CA59AC009EA753 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264E871514CA59AC009EA753 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264E871A14CA59AC009EA753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		264E871B14CA59AC009EA753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264E871D14CA59AC009EA753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertResume/AlertResume-Prefix.pch";
+				INFOPLIST_FILE = "AlertResume/AlertResume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		264E871E14CA59AC009EA753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertResume/AlertResume-Prefix.pch";
+				INFOPLIST_FILE = "AlertResume/AlertResume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264E86F814CA59AC009EA753 /* Build configuration list for PBXProject "AlertResume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E871A14CA59AC009EA753 /* Debug */,
+				264E871B14CA59AC009EA753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264E871C14CA59AC009EA753 /* Build configuration list for PBXNativeTarget "AlertResume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E871D14CA59AC009EA753 /* Debug */,
+				264E871E14CA59AC009EA753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264E86F514CA59AC009EA753 /* Project object */;
+}
